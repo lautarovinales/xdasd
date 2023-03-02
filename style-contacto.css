@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(13, 13, 13);
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/header.png);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 250px;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(21, 21, 21);
+    margin-bottom: 10px;
+}
+
+.btn-izq {
+    width: 100px;
+    height: 60px;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(21, 21, 21);
+    color: rgb(140, 140, 140);
+    font-size: 0.7em;
+}
+
+.btn-izq:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(244, 244, 244);
+}
+
+.btn-der {
+    width: 120px;
+    height: 60px;
+    border-style: none;
+    background-color: #6C19FF;
+    color: rgb(240, 240, 240);
+    font-size: 0.7em;
+}
+
+.btn-der:hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: 950px;
+    background-color: rgb(13, 13, 13);
+    justify-content: center;
+    transition: 1s;
+    display: flex;
+}
+
+.form-cont {
+    width: 99%;
+    height: 940px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+form {
+    padding-top: 40px;
+    width: 40%;
+    height: 900px;
+    background-color: #6C19FF;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.field {
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    border-style: none;
+    text-align: center;
+    background-color: rgb(77, 28, 145);
+    color: rgb(240, 240, 240);
+    resize: none;
+}
+
+h2 {
+    font-weight: light;
+    color: rgb(50, 50, 50);
+}
+
+p {
+    color: white;
+}
+
+.btn {
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #19ff90;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.redes {
+    width: 60%;
+    height: 940px;
+    border-radius: 10px;
+    background-color: rgb(30, 30, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    border-spacing: 20px;
+}
+
+.celda-w {
+    background-color: rgb(70, 230, 55);
+}
+
+.celda-i {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: rgb(240, 240, 240);
+}
+
+.celda-k {
+    background-color: rgb(240, 240, 240);
+}
+
+.celda-t {
+    background-color: rgb(47, 158, 255);
+    color: rgb(240, 240, 240);
+}
+
+.celda-r {
+    background-color: rgb(253, 58, 58);
+    color: rgb(240, 240, 240);
+}
+
+td {
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(100, 100, 100);
+    transition: 1s;
+}
+
+.font-purple {
+    color: #6C19FF;
+}
+
+@media screen and (max-width:1100px) {
+    main {
+        width: 100%;
+        height: 1560px;
+        background-color: rgb(13, 13, 13);
+        justify-content: center;
+        transition: 1s;
+    }
+
+    .form-cont {
+        width: 100%;
+        height: 1560px;
+        display: block;
+        align-items: center;
+        background-color: black;
+        transition: 1s;
+    }
+
+    form{
+        width: 95vw;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        transition: 1s;
+    }
+
+    .redes {
+        width: 95vw;
+        height: 600px;
+        border-radius: 10px;
+        background-color: rgb(30, 30, 35);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        transition: 1s;
+    }
+    
+    .table {
+        border-spacing: 20px;
+        transition: 1s;
+    }
+
+    td {
+        width: 400px;
+        height: 70px;
+        text-align: center;
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+    }
+}
+
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Asimodai</title>
+    <link rel="shortcut icon" href="./favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-contacto.css">
+</head>
+
+<body>
+    <header>
+        <img src="./logo/logo.png" alt="" class="logo">
+    </header>
+    <nav>
+        <div class="button-izq">
+            <button class="btn-izq" onclick="inicio()">INICIO</button>
+            <button class="btn-izq" onclick="descargas()">DESCARGAS</button>
+        </div>
+        <div class="button-der">
+            <button class="btn-der" onclick="contacto()">CONTACTO</button>
+        </div>
+    </nav>
+    <main>
+        <div class="form-cont">
+            <form action="">
+                <span>
+                    <img src="./logo/logo.png" alt="" class="logo">
+                    <h2>Contacta conmigo</h2>
+                </span>
+                <p>Nombre:</p>
+                <input type="text" class="field" name="nombre">
+                <p>Correo electrónico:</p>
+                <input type="email" class="field" name="correo">
+                <p>Asunto:</p>
+                <input type="text" class="field" name="asunto">
+                <p>Mensaje:</p>
+                <textarea class="field" name="mensaje" id="">
+                </textarea>
+                <br>
+                <input type="submit" class="btn" value="Enviar">
+                <br>
+            </form>
+            <div class="redes">
+                <table class="table">
+                    <tr class="tr">
+                        <td class="celda-w"><img src="./img/logo-w.png" width="30px"> Whatsapp</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="celda-i"><img src="./img/logo-i.png" width="30px"> Instagram</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="celda-k"><img src="./img/logo-k.png" width="30px"> Ko-fi</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="celda-t"><img src="./img/logo-t.png" width="30px"> Twitter</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="celda-r"><img src="./img/logo-r.png" width="30px"> Red Bubble</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            ©Proyecto final de <span class="font-purple">Revolución Digital*</span> realizado por Lautaro Viñales.
+        </p>
+    </footer>
+    <script src="script-contacto.js"></script>
+</body>
+
+</html>
